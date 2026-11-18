@@ -38,12 +38,29 @@ Combining `MultiScaleScannerLayer (5×20 + Cross)` with rational division-multip
 | Standard `0.01 Da` Binned Cosine Floor | `0.091` | Pure CPU library-matching ceiling |
 | **HybridMultiScaleDivMulNet (Ours)** | **`0.133`** | **+46% improvement** over standard library baseline |
 
----
-
 ## 🚀 Quick Start
 
 ```bash
 pip install -r requirements.txt
 python benchmark_demo.py
 ```
+
 [![DOI](https://zenodo.org)](https://doi.org)
+
+---
+
+## 📜 Citation
+
+If you use **MultiScaleScannerNet** in your research, please cite this repository:
+
+```bibtex
+@software{multiscalescannernet_2026,
+  author       = {Shabrov, Arsenii},
+  title        = {MultiScaleScannerNet: Hierarchical Global, Group, and Running 1->1 Micro-Scanners},
+  year         = {2026},
+  publisher    = {Zenodo},
+  version      = {v1.0.0},
+  doi          = {10.5281/zenodo.24348936},
+  url          = {https://doi.org}
+}
+```
