@@ -46,3 +46,4 @@ Combining `MultiScaleScannerLayer (5×20 + Cross)` with rational division-multip
 pip install -r requirements.txt
 python benchmark_demo.py
 ```
+[![DOI](https://zenodo.org)](https://doi.org)
